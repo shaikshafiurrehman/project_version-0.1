@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+    font-family: 'Cormorant', serif;
+}
+
+.div::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid black;
+    height: 3px;
+    width: 80px;
+    margin: 0 auto;
+
+}
+.round i{
+    height: 60px;
+    width: 60px;
+    background-color: orangered;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;   
+}
+.round i:hover {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease-in-out; 
+    color: black; 
+}
+.mass img{
+    height: 80px;
+    width: 80px;
+    border-radius: 30px;
+}
+.col .coll{
+    margin-left: -100px;
+
+}
+.container-flid{
+    background-color: orangered;
+    color: white;
+    height: 30vh;
+    width: 100%;
+}
+.col input{
+    height: 38px;
+}
+ 
+/* .col-md-6 img:hover{
+    transform: scale(1.1); 
+    transition: transform 0.2s ease; 
+} */
+.col-md-4 img:hover{
+    transform: scale(1.1); 
+    transition: transform 0.2s ease-in-out; 
+}
+ul li a{
+    font-size: 20px;
+}
